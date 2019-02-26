@@ -120,28 +120,31 @@
 
 			 <!--POP UP ORDER CART-->
 			 <div id="cart">
-			 	
-			 	<div id="showText"></div>
-			 	<div id="totalPrice"></div>
-			 	<fieldset id="payment">
-			 		<legend>Payment Info</legend>
-				 	<label for="name">*Full Name: </label>
-				 	<input id="name" type="text"><br>
-				 	<label for="phone">*Phone Number: </label>
-				 	<input id="phone" type="text"><br>
-				 	<label for="creditcard-select">*Credit Card: </label>
-						<select id="creditcard-select">
-						    <option value="visa">Visa</option>
-						    <option value="mastercard">MasterCard</option>
-						    <option value="discover">Discover</option>
-						</select><br>
-					
-					<input type="password" name="cc" placeholder="Credit Card Number"><br>
-						<div class= "process">
-						 	<button class="button">Submit</button>
-						 	<button class="button" onclick="clearAll()">Cancel</button>
-				 		</div>
-			 	</fieldset>
+			 	<img src="img/logo_transparent.png" alt="" class="logo" height="150px" width="150px">
+			 		<div id="youOrdered"><h3>You Ordered: </h3></div>
+				 	<div id="showText"></div>
+				 	<div id="showText2"></div>
+				 	<div id="total"><h3>Total:</h3></div>
+				 	<div id="totalPrice"></div>
+				 	<fieldset id="payment">
+				 		<legend>Payment Info</legend>
+					 	<label for="name">Full Name: </label>
+					 	<input id="name" type="text"><br>
+					 	<label for="phone">Phone Number: </label>
+					 	<input id="phone" type="text"><br>
+					 	<label for="creditcard-select">Credit Card: </label>
+							<select id="creditcard-select">
+							    <option value="visa">Visa</option>
+							    <option value="mastercard">MasterCard</option>
+							    <option value="discover">Discover</option>
+							</select><br>
+						
+						<input type="password" name="cc" placeholder="Credit Card Number"><br>
+							<div class= "process">
+							 	<button class="button">Submit</button>
+							 	<button class="button" onclick="clearAll()">Cancel</button>
+					 		</div>
+				 	</fieldset>
 			 </div>
 
 		  

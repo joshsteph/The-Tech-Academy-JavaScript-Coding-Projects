@@ -170,7 +170,7 @@ legend {
 
 #cart {
 	display: none;
-	text-align: left;
+    flex-flow: row wrap;
 	position: absolute;
 	z-index: 100;
 	margin: auto;
@@ -178,17 +178,41 @@ legend {
 	top: 0;
 	width: 560px;
 	height: 650px;
-	background-color: #252a33;	
+	background-color: #252a33;
+	text-align: left;	
+}
+
+#youOrdered {
+	flex: 1 100%;
+    padding: 0;
 }
 
 
+
+#showText,
+#showText2 {
+	flex: 1 250px;
+	width: 250px;
+	border-bottom: 2px solid #ff2d62;
+}
+#total,
 #totalPrice {
-	padding-top:10px;
+	flex: 1 250px;
+	width: 250px;
+	padding-top: 10px;
+
 }
+
 
 #payment {
 	display:flex;
-	padding-left: 20px;
+	margin: auto;
+	padding: 10px;
+}
+#name,
+#phone,
+#cc {
+	width: 50%;
 }
 
 #submit {
@@ -198,4 +222,10 @@ legend {
 .process {
 	display: inline-flex;
 	margin: 10px auto;
+}
+
+.logo {
+	position: absolute;
+	top: 0;
+	right: 14px;
 }
